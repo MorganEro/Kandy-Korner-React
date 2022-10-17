@@ -1,0 +1,15 @@
+.items-container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+ .location-item {
+    background-color: rgb(245, 250, 186);
+    border: 2px black solid;
+    width: 15rem;
+}
+
+ul {
+    list-style-type: none; 
+}
