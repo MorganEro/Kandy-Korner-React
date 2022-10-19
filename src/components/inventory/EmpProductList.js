@@ -1,15 +1,6 @@
 import "./Products.css"
 import { useEffect, useState } from "react"
 
-/*
-goal: when emp click on Product Link, it takes them to a more detailed list than the users version
-
-create module can component for empProductDetails
-link it to nav bar for just emp
-employee clicks products and it links to empProductDetails
-module iterates through items and shows 
-item show using query to to show the id's
-*/
 export const EmpProductList = () => {
 
     const [products, setProducts] = useState([])
