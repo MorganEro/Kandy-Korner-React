@@ -1,5 +1,6 @@
 import "./Products.css"
 import { useEffect, useState } from "react"
+import { AddProduct } from "../tickets/AddProducts"
 
 export const ProductList = () => {
     const localKandyUser = localStorage.getItem("kandy_user")
@@ -27,7 +28,7 @@ export const ProductList = () => {
 
     return (
         <>
-        
+        <AddProduct setProducts={setProducts}/>
             <div className="items-container">
                 <h2>List Of Products</h2>
                 <div className="price-buttons">
@@ -37,6 +38,7 @@ export const ProductList = () => {
                             ? <>
                                 <button onClick={() => setToggle(true)} className="topPriced">Top Priced</button>
                                 <button onClick={() => setToggle(false)} className="allInventory"> All Products </button>
+
                             </>
                             : ""
                         }
