@@ -1,0 +1,35 @@
+.items-container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+ .product-item {
+    background-color: rgb(245, 250, 186);
+    border: 2px black solid;
+    width: 5rem;
+    border-radius: 5%;
+    justify-content: center;
+}
+.emp-product-item {
+    background-color: rgb(245, 250, 186);
+    border: 2px black solid;
+    width: 20rem;
+    border-radius: 5%;
+    justify-content: center;
+
+}
+
+ul {
+    list-style-type: none; 
+}
+
+button {
+    width: 5rem;
+    background-color: azure;
+    border-radius: 5%;
+}
+.price-buttons {
+    display: flex;
+
+}
