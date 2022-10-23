@@ -9,6 +9,9 @@ export const EmployeeViews = () => {
 		<Route path="/" element= {
 			<>
 			<h1>Kandy Korner</h1>
+			<div> Another GREAT day to work at Kandy Korner!!</div>
+			
+			<Outlet />
 			
 			</>
 		} />
