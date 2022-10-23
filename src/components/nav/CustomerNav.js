@@ -11,13 +11,19 @@ export const CustomerNav = () => {
                 <Link className="navbar__link" to="/" 
             >Home</Link>
             </li>
-            <li className="navbar__item navbar__products">
+            <li className="navbar__item navbar__candySearch">
                  <Link 
-                 className="navbar__link" to="/productList" 
-                >Products</Link>
-                       
-                
+                 className="navbar__link" to="/candySearch" 
+                >Find Candy</Link>
             </li>
+
+            <li className="navbar__item navbar__products">  
+                 <Link 
+                 className="navbar__link" to="/productList" >Products</Link>    
+            </li>
+
+
+
             <li className="navbar__item navbar__locations">
                 <Link className="navbar__link" to="/locationList" 
             >Locations</Link>
